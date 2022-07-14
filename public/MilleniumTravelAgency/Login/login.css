@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=PT+Serif:ital,wght@1,700&family=Shizuru&display=swap');
+
+
+body{
+    background-color: rgba(250,247,241,255);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'PT Serif', serif;
+}
+
+section#navigasi img{
+    height: 70px;
+}
+section#navigasi nav{
+    padding-left: 5%;
+    display: flex;
+    background-color: rgba(57,61,64,255);
+    letter-spacing: 3px;
+}
+.left-nav{
+    width: 80px;
+}
+.right-nav{
+    margin-top: 20px;
+    margin-left: 100px;
+    padding-left: 20px;
+}
+.right-nav h3{
+    color: white;
+    border-left: 2px solid white;
+    padding-left: 15px;
+}
+
+section#bottom {
+    padding-top: 50px;
+    background-color:  rgba(57,61,64,255);
+    font-family: 'PT Serif', serif;
+    overflow: hidden;
+    width: auto;
+      
+}
+section#bottom div{
+    width: 100%;
+    height: 200px;
+    color: white;
+    text-align: center;
+    align-content: center;
+}
+section#bottom div.contact{
+    text-align: left;
+    padding-left: 5%;
+}
+section#bottom div.contact img{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+.konten{
+    width: 100%;
+    height: 570px;
+    margin-top: 1px;
+}
+form{
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 17px;
+    margin-top: 60px;
+    margin-left: 35%;
+    width: 400px;
+    background-color: rgba(238,231,218,255);;
+    height: 450px;
+}
+form p{
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+form h3{
+    text-align: center;
+    color: brown;
+    text-decoration: underline;
+}
+input{
+    width: 375px;
+    height: 30px;
+}
